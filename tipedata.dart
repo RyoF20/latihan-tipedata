@@ -41,5 +41,46 @@ dynamic angka1 = 1000;
 // //print (data.indexOf(100));
 // print (data.removeAt(1));
 
+// Set mhs = {'Dona','Martin','Gary','Windy','Gary','Windy'};
+// print ('nama saya ${mhs.elementAt(2)}');
+//gimana caranya print nama saya gary]
+//list => array index angka data [0]
+//map => array index bebas
+
+// Map mhs = {"nama" : "Agus", "Umur" : 30,"Prodi": "SI"};
+// print(object)
+
+// Map produk = [
+// {"nama":'Kopi A', "Harga": 300000, "Stok":100},
+// {"nama":'gula', "Harga": 20000, "Stok":10},
+// {"nama":'cabe', "Harga": 10000, "Stok":30},
+// {"nama":'bawang', "Harga": 100000, "Stok":10},
+// {"nama":'bubuk teh', "Harga": 15000, "Stok":200},
+// ];
+
+// List data =[];
+// Map data1 = {"nama":'Kopi A', "Harga": 300000, "Stok":100};
+// Map data2 ={"nama":'gula', "Harga": 20000, "Stok":10 };
+// Map data3 ={"nama":'cabe', "Harga": 10000, "Stok":30};
+// Map data4 ={"nama":'bawang', "Harga": 100000, "Stok":10 };
+// Map data5 ={"nama":'bubuk teh', "Harga": 15000, "Stok":200 };
+// data.add(data1);
+// data.add(data2);
+// data.add(data3);
+// data.add(data4);
+// data.add(data5);
+// print (data[2]['nama']);
+
+// kalau final itu hanya bisa di set satu kali, misalnya nilai awal deka, tidak bisa lagi ditimpa sindy
+//Tidak wajib ada nilai awal
+// final String nama;
+// nama = 'deka';
+// nama = 'sindy';
+
+// const String nama='sindy'; //const wajib ada nilai awal
+// nama = 'Deka';
+
+//Persamaan final dan const hanya bisa 1x
+
 }
 
