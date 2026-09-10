@@ -1,0 +1,92 @@
+[1mdiff --git a/tipedata.dart b/tipedata.dart[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e87db51[m
+[1m--- /dev/null[m
+[1m+++ b/tipedata.dart[m
+[36m@@ -0,0 +1,86 @@[m
+[32m+[m[32mvoid main() {[m
+[32m+[m[32m  //String nama = "Ryo";[m
+[32m+[m[32mvar nama1 = "Ryo"; //var bisa menyesuaikan tipe data apapun mau int ataupun string bisa otomatis menyesuaikan[m[41m [m
+[32m+[m[32mint angka = 100;[m
+[32m+[m[32m//var angka1 = 100;[m
+[32m+[m
+[32m+[m[32mString namabaru = 'robet';[m
+[32m+[m[32mint umur = 19;[m
+[32m+[m[32mdouble  berat = 50.4;[m
+[32m+[m[32mString kota = 'Pontianak';[m
+[32m+[m[32mprint ("nama saya: $namabaru umur saya :$umur, beratbadan :$berat,Kota saya: $kota");[m
+[32m+[m
+[32m+[m[32mint angkabaru = 20;[m
+[32m+[m[32mdouble angkabaru1 = 20.5;[m
+[32m+[m[32mnum hasil = 0;[m
+[32m+[m[32mhasil = angkabaru + angkabaru1;[m
+[32m+[m[32m//num, dynamic[m
+[32m+[m[32mdynamic nama = "ryo";[m
+[32m+[m[32mdynamic angka1 = 1000;[m
+[32m+[m
+[32m+[m[32m//bool bangunpagi = true;[m
+[32m+[m[32m//var bangunpagi = true;[m
+[32m+[m[32m//dynamic bangunpagi = true;[m
+[32m+[m
+[32m+[m[32m//array => dart = list,set,map[m
+[32m+[m
+[32m+[m[32m//List<dynamic> mhs = ['deny', 'arkan', 'cindy', 100, true, 20.5];[m
+[32m+[m[32m//List<String> mhs1 = ['deny', 'arkan', 'cindy'];[m
+[32m+[m[32m//print('nama saya ${mhs[0]}');[m
+[32m+[m[32m//List data = ['deny', 30, 'sistem informasi'];[m
+[32m+[m[32m//nama saya deny, umur 30 prodi sistem informasi[m[41m [m
+[32m+[m[32m//print('nama saya ${data[0]} ,umur ${data[1]} ,prodi ${data[2]} ');[m
+[32m+[m
+[32m+[m[32m// List data = [];[m
+[32m+[m[32m// data.add(100);[m
+[32m+[m[32m// data.add('ryo');[m
+[32m+[m[32m// data.add('Sistem Informasi');[m
+[32m+[m[32m// data.removeAt(1);[m
+[32m+[m
+[32m+[m[32m// //print (data.elementAt(0));[m
+[32m+[m[32m// //print (data.indexOf(100));[m
+[32m+[m[32m// print (data.removeAt(1));[m
+[32m+[m
+[32m+[m[32m// Set mhs = {'Dona','Martin','Gary','Windy','Gary','Windy'};[m
+[32m+[m[32m// print ('nama saya ${mhs.elementAt(2)}');[m
+[32m+[m[32m//gimana caranya print nama saya gary][m
+[32m+[m[32m//list => array index angka data [0][m
+[32m+[m[32m//map => array index bebas[m
+[32m+[m
+[32m+[m[32m// Map mhs = {"nama" : "Agus", "Umur" : 30,"Prodi": "SI"};[m
+[32m+[m[32m// print(object)[m
+[32m+[m
+[32m+[m[32m// Map produk = [[m
+[32m+[m[32m// {"nama":'Kopi A', "Harga": 300000, "Stok":100},[m
+[32m+[m[32m// {"nama":'gula', "Harga": 20000, "Stok":10},[m
+[32m+[m[32m// {"nama":'cabe', "Harga": 10000, "Stok":30},[m
+[32m+[m[32m// {"nama":'bawang', "Harga": 100000, "Stok":10},[m
+[32m+[m[32m// {"nama":'bubuk teh', "Harga": 15000, "Stok":200},[m
+[32m+[m[32m// ];[m
+[32m+[m
+[32m+[m[32m// List data =[];[m
+[32m+[m[32m// Map data1 = {"nama":'Kopi A', "Harga": 300000, "Stok":100};[m
+[32m+[m[32m// Map data2 ={"nama":'gula', "Harga": 20000, "Stok":10 };[m
+[32m+[m[32m// Map data3 ={"nama":'cabe', "Harga": 10000, "Stok":30};[m
+[32m+[m[32m// Map data4 ={"nama":'bawang', "Harga": 100000, "Stok":10 };[m
+[32m+[m[32m// Map data5 ={"nama":'bubuk teh', "Harga": 15000, "Stok":200 };[m
+[32m+[m[32m// data.add(data1);[m
+[32m+[m[32m// data.add(data2);[m
+[32m+[m[32m// data.add(data3);[m
+[32m+[m[32m// data.add(data4);[m
+[32m+[m[32m// data.add(data5);[m
+[32m+[m[32m// print (data[2]['nama']);[m
+[32m+[m
+[32m+[m[32m// kalau final itu hanya bisa di set satu kali, misalnya nilai awal deka, tidak bisa lagi ditimpa sindy[m
+[32m+[m[32m//Tidak wajib ada nilai awal[m
+[32m+[m[32m// final String nama;[m
+[32m+[m[32m// nama = 'deka';[m
+[32m+[m[32m// nama = 'sindy';[m
+[32m+[m
+[32m+[m[32m// const String nama='sindy'; //const wajib ada nilai awal[m
+[32m+[m[32m// nama = 'Deka';[m
+[32m+[m
+[32m+[m[32m//Persamaan final dan const hanya bisa 1x[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m

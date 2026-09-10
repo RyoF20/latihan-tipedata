@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   //String nama = "Ryo";
 // var nama1 = "Ryo"; //var bisa menyesuaikan tipe data apapun mau int ataupun string bisa otomatis menyesuaikan 
@@ -124,5 +126,8 @@ void main() {
 //   index++;
 
 // } while (index < datamhs.length); 
+
+stdout.writeln('Masukkan Angka 1:');
+var inputUser1 =  
 
 }

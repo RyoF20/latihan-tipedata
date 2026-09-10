@@ -82,5 +82,51 @@ dynamic angka1 = 1000;
 
 //Persamaan final dan const hanya bisa 1x
 
+//for in 
+// List datamhs = ['Deni', 'Windy', 'sindy', 'micheal', 'jonathan'];
+// for (var element in datamhs) {
+//     if (element == 'Deni') {
+//       print('ini deni');
+//     }
+//     print(element);
+// } 
+
+//foreach
+// List datamhs = ['Deni', 'Windy', 'sindy', 'micheal', 'jonathan'];
+//ini untuk print semua nama
+// datamhs.forEach((ryo) { 
+// print(ryo);
+// ini untuk print sesuai kondisi yang kita mau, misalnya ingin deni saja,jadi hanya print deni saja 
+// if (ryo == 'Deni') {
+//   print(ryo);
+// }
+// });
+
+// materi while
+// var nilai = 0;
+// while (nilai < 5) {
+//   print(nilai);
+//   nilai++;
+// } 
+
+// List datamhs = ['Deni', 'Windy', 'sindy', 'micheal', 'jonathan'];
+// var index =0;
+// while (index < datamhs.length) {
+//   print(datamhs[index]);
+//   index++;
+// }
+
+// materi do while
+// List datamhs = ['Deni', 'Windy', 'sindy', 'micheal', 'jonathan'];
+// var index = 0;
+// do {
+//   print(datamhs[index]);
+//   index++;
+
+// } while (index < datamhs.length); 
+
+// stdout.writeln('Masukkan Angka 1:');
+// var inputUser1 =  
+
 }
 
